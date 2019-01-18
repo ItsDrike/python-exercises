@@ -6,10 +6,10 @@ Left Rotation of 3 places:<br>
 <pre>Plain:    ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Cipher:   XYZABCDEFGHIJKLMNOPQRSTUVW
 </pre>
-#### Your Task:
+### Your Task:
 Your task is to create a program, that will take plaintext as input and return ciphertext as output
-You will use Right Rotation of 4 places.
+You will use **Right Rotation of 4 places**.
 #### Example:
-<pre>Plain: A
-Cipher: E
+<pre>IN: A
+OUT: E
 </pre>
