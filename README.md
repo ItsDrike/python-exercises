@@ -10,3 +10,5 @@
 ### Questions will be getting harder and harder over time, but it is meant mainly for beginners, so it won't be that hard, though some Questions can be quite hard.
 
 ## Good luck.
+
+## - This is still a WIP project, I will add a lot more questions but I wanted to put it out, so anyone can try it, even with less questions.
