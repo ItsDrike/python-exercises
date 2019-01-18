@@ -1,11 +1,15 @@
-* Import json module
-* Input string and separate it to list by characters, save list to `characters`
-* Set variables `counted_chars` (dictionary) and `char_count` integer
-* Iterate through every `char` of `characters`
-    * If `char` is not space
-        * Set `counted_chars` with key: `char` to how many times `char` is in `characters`
-        * Add 1 to char_count
-* Iterate through every key in `counted_chars`
-    * Determine `percentual_appearance` of current character
-    * Set this `percentual_appearance` as value of current key in `counted_chars`
-* Print `counted_chars` in json format (indent=4)
+* Input plain message and save it as `plaintext`
+* create `ciphertext` variable
+* iterate through every `letter` in `plaintext`
+* check if the current `letter` is in alphabet
+* if it is:
+    * create `num` variable and save ASCII value of current letter
+    * add 4 to `num` (4 to right is our key)
+    * check if `letter` is A-Z and it's ASCII value is greater than ASCII value of letter *Z*
+    * if it is, subtract 26 from `num` (to go back to letter *A*)
+    * check if `letter` is a-z and it's ASCII value is greater than ASCII value of letter *z*
+    * if it is, subtract 26 from `num` (to go back to letter *a*)
+    * set `ciphertext` to ASCII value of `num`
+* if it is not:
+    * set `ciphertext` to `letter`
+* print `ciphertext`

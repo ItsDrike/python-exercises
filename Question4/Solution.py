@@ -1,16 +1,16 @@
-import json
-characters = list(input('Enter string: '))
+plaintext = input('Enter plain message: ')
+ciphertext = ''
 
-counted_chars = {}
-char_count = 0
+for letter in plaintext:
+    if letter.isalpha():
+        num = ord(letter)
+        num += 4
+        if (letter.isupper()) and num > ord('Z'):
+            num -= 26
+        elif (letter.islower()) and num > ord('z'):
+            num -= 26
+        ciphertext += chr(num)
+    else:
+        ciphertext += letter
 
-for char in characters:
-    if char != ' ':
-        counted_chars[char] = characters.count(char)
-        char_count += 1
-
-for key in counted_chars:
-    percentual_appearance = (counted_chars[key] / char_count) * 100
-    counted_chars[key] = round(percentual_appearance, 2)
-
-print(json.dumps(counted_chars, indent=4))
+print(ciphertext)

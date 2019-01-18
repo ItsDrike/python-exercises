@@ -1,18 +1,16 @@
-def isArmstrong(number):
-    fint = 0
-    num = str(number)
-    nums = list(num)
+import json
+characters = list(input('Enter string: '))
 
-    for x in nums:
-        fint = fint + int(x) ** 3
-    if fint == number:
-        return True
-    return False
+counted_chars = {}
+char_count = 0
 
+for char in characters:
+    if char != ' ':
+        counted_chars[char] = characters.count(char)
+        char_count += 1
 
-for i in range(1, 100000):
-    i += 1
-    if isArmstrong(i):
-        print(f"{i} is an Armstrong Number")
+for key in counted_chars:
+    percentual_appearance = (counted_chars[key] / char_count) * 100
+    counted_chars[key] = round(percentual_appearance, 2)
 
-    print(f"Currently on number {i}", end='\r')
+print(json.dumps(counted_chars, indent=4))
