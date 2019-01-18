@@ -1,1 +1,1 @@
-# Consider use range(#begin, #end) method
+Consider use range(#begin, #end) method

@@ -1,1 +1,1 @@
-# Modulo operator (%)
+Modulo operator (%)
