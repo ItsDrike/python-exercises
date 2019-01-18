@@ -2,8 +2,8 @@
     * Create string form of `number` and save it to `num`
     * Create list with `num` separated by digits and save it as `nums`
     * Iterate through `nums` as `x`
-        * Set variable fint to be equal itself + int form of `x` raised to 3rd power
-    * If fint value is same as initial number value, **return True**
+        * Set variable `fint` to be equal itself + int form of `x` raised to 3rd power
+    * If `fint` value is same as initial number value, **return True**
     * Else **return False**
 * Iterate through every number between 1 to 100,000 as `i`
     * Increase `i` by 1
