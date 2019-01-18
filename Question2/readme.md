@@ -1,15 +1,13 @@
-### Caesar Cipher.
-Basicly, caesar cipher is a very simple encryption method.<br>
-Each letter of plaintext is replaced by a letter some number of positions down the alphabet.<br>
+Write a program that accepts a whitespace-separated sequence of words as input and returns words in comma-separated sequence after removing all duplicate words and sorting the remaning words alphabeticaly
+#### Bassicaly:
+* Input whitespace-separated sequence of words
+* Remove all duplicate words
+* Sort alphabeticaly
+* Returm comma-separated sequence of words
+
 #### Example:
-Left Rotation of 3 places:<br>
-<pre>Plain:    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-Cipher:   XYZABCDEFGHIJKLMNOPQRSTUVW
+<pre>IN:  hi hello welcome hi goodbye farwell see-you bye farwell
+OUT: bye,farwell,goodbye,hello,hi,see-you,welcome
 </pre>
-### Your Task:
-Your task is to create a program, that will take plaintext as input and return ciphertext as output
-You will use **Right Rotation of 4 places**.
-#### Example:
-<pre>IN: A
-OUT: E
-</pre>
+
+The program removed all duplicates (hi, farwell) and the rest was sorted alphabeticaly
