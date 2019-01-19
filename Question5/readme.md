@@ -1,6 +1,6 @@
 ### Character counter (percentual character Appearance)
 Your task is to write a program that accepts any string, you should return percentual values of each letter in the javascript-like format (use json module for print formating)
-#### Bassicaly:
+#### Basically:
 * Input any string
 * Count how many time each letter occured (including symbols like '.', but not including spaces (' '))
 * Determine percentual value of each occurence of every letter that is in the string (without spaces)
