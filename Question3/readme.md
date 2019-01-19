@@ -1,5 +1,5 @@
 Write a program that accepts a whitespace-separated sequence of words as input and returns words in comma-separated sequence after removing all duplicate words and sorting the remaning words alphabeticaly
-#### Bassicaly:
+#### Basically:
 * Input whitespace-separated sequence of words
 * Remove all duplicate words
 * Sort alphabeticaly
