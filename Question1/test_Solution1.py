@@ -1,4 +1,4 @@
-import Solution
+import Solution1
 
 
 def test_main(self):
