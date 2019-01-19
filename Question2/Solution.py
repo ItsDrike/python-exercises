@@ -7,12 +7,17 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-maximum = 10000
-even_fibonacci = []
-for n in range(1, maximum):
-    fib = fibonacci(n)
-    if fib % 2 == 0:
-        even_fibonacci.append(str(fib))
-    if fib > maximum:
-        break
-print(', '.join(even_fibonacci))
+def main():
+    maximum = 10000
+    even_fibonacci = []
+    for n in range(1, maximum):
+        fib = fibonacci(n)
+        if fib % 2 == 0:
+            even_fibonacci.append(str(fib))
+        if fib > maximum:
+            break
+    return ', '.join(even_fibonacci)
+
+
+if __name__ == '__main__':
+    print(main())
