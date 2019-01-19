@@ -64,7 +64,8 @@ User input:
         -Go back to start-up
     * 2:
         <pre>This user aleardy exists, please use diffirent username.</pre>
-        -Go back to start-up
+        -Go back to start-up<br>
 //I have not covered everything, but that would just take too long, but this should be enough for you to create functional bank interface
 
 ### If it seems to hard, just don't do everything at once, first, just create login system, without file-saving, you can just save to dictionary, this task is harder than most others, so if you don't feel like you can do it, skip it, but you should at least try.
+### There are no hits, algorithm and sulition published yet, I'll publish them later, right now, you'll have to try figure this one out on your own.
