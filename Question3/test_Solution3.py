@@ -1,4 +1,4 @@
-import Solution3
+import Solution3 as Solution
 
 
 def test_main_alphabet_order():

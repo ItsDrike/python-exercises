@@ -1,4 +1,4 @@
-import Solution4
+import Solution4 as Solution
 
 
 def test_main_1():
