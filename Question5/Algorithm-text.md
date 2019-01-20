@@ -5,9 +5,12 @@
         * Set variable `fint` to be equal itself + int form of `x` raised to 3rd power
     * If `fint` value is same as initial number value, **return True**
     * Else **return False**
+* Create list called `armstrong_nums`
 * Iterate through every number between 1 to 100,000 as `i`
     * Increase `i` by 1
     * Check if number `i` is armstrong number
-        * If it is, print `i` is an Armstrong Number
+        * If it is, append list `armstrong_nums` by string version of `i`
     * **Optional Part (print current number - NOT NECESSARY)**
-        * (Optional) Print variable i, end='\r' so we know, what number are we currently on *(don't use if you want it to be fast, this will slow it significantly)*
+    * (Optional) Print variable i, end='\r' so we know, what number are we currently on *(don't use if you want it to be fast, this will slow it significantly)*
+* (Optional) Print 26 spaces so we clean the output
+* Print `armstrong_nums` in comma-separated sequence
