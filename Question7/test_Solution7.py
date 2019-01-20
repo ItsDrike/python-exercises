@@ -1,4 +1,4 @@
-import Solution7s as Solution
+import Solution7 as Solution
 import json
 
 
