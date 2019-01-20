@@ -1,1 +1,1 @@
-`sorted(list)`
+`chr()` and `ord()`

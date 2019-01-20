@@ -1,40 +1,16 @@
-### Character counter (percentual character Appearance)
-Your task is to write a program that accepts any string, you should return percentual values of each letter in the javascript-like format (use json module for print formating)
-#### Basically:
-* Input any string
-* Count how many time each letter occured (including symbols like '.', but not including spaces (' '))
-* Determine percentual value of each occurence of every letter that is in the string (without spaces)
-* Fromat them like it is shown in example
-* Print out percentual occurences (rounded to 2 decimals) of these letters in **javascript-like format** with **indent of 4** (**use json module for print formating**)
+## Even Fibonacci numbers
+You should be familiar with fibonacci sequence, if not, look at the definition.
+You are supposed to generate an output of fibonacci sequence between **1 and 10,000** including, but you should only use **even** numbers
+### Definition:
+Fibonacci sequence is a sequence where each number is the sum of the two preceding ones, starting from 0 and 1.<br>
+Fibonacci sequence: **(0,) 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...**<br>
+If you are completly unfamiliar with fibonacci's sequence, you can take a look at this [picture](https://en.wikipedia.org/wiki/Fibonacci_number#/media/File:34*21-FibonacciBlocks.png "Fibonacci numbers picture")
+### Basically:
+* You create a program that will give you fibonacci numbers from 1 to 10,000.
+* You remove the odd numbers from this sequence.
+* You print this sequence in 1 line separated by comma followed by space.
 
-#### Example:
-<pre>
-IN: This is an example sentence. It is used in cases like this, when we do not know, what to type in here as some random string.
-OUT:
-{
-    "T": 1.01,
-    "h": 5.05,
-    "i": 8.08,
-    "s": 11.11,
-    "a": 6.06,
-    "n": 10.1,
-    "e": 14.14,
-    "x": 1.01,
-    "m": 3.03,
-    "p": 2.02,
-    "l": 2.02,
-    "t": 8.08,
-    "c": 2.02,
-    ".": 2.02,
-    "I": 1.01,
-    "u": 1.01,
-    "d": 3.03,
-    "k": 2.02,
-    ",": 2.02,
-    "w": 4.04,
-    "o": 6.06,
-    "y": 1.01,
-    "r": 3.03,
-    "g": 1.01
-}
-</pre>
+### Example:
+There is no input, you only output the even fibonacci numbers.
+<pre>OUT: 2, 8, 34, 144, ...</pre>
+// You should get 7 even fibonacci numbers in range between 1 and 10,000

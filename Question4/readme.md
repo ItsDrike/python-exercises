@@ -1,15 +1,17 @@
-### Caesar Cipher.
-Basicly, caesar cipher is a very simple encryption method.<br>
-Each letter of plaintext is replaced by a letter some number of positions down the alphabet.<br>
-#### Example:
-Left Rotation of 3 places:<br>
-<pre>Plain:    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-Cipher:   XYZABCDEFGHIJKLMNOPQRSTUVW
-</pre>
-### Your Task:
-Your task is to create a program, that will take plaintext as input and return ciphertext as output
-You will use **Right Rotation of 4 places**.
-#### Example:
-<pre>IN: A
-OUT: E
-</pre>
+### Robot:
+There is a robot, that can move right or left and forward or backward.<br>
+This robot will get instructions for movement in format of: *{Direction}: {Amount}*
+### Your task:
+Collect the instruction for robot, and return the position, robot should get to as relative coordinates (X,Y)<br>
+Start from *X: 0, Y: 0*.<br>
+*Right, Left -> X*<br>
+*Forward, Backward -> Y*
+#### Input:
+<pre>IN: RIGHT 5
+IN: LEFT 8
+IN: FORWARD 4
+IN: BACKWARD 2
+IN: STOP</pre>
+#### Output:
+<pre>OUT: X: -3
+OUT: Y: 2</pre>
