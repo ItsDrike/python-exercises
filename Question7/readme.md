@@ -5,7 +5,7 @@ Your task is to write a program that accepts any string, you should return perce
 * Count how many time each letter occured (including symbols like '.', but not including spaces (' '))
 * Determine percentual value of each occurence of every letter that is in the string (without spaces)
 * Fromat them like it is shown in example
-* Print out percentual occurences (rounded to 2 decimals) of these letters in **javascript-like format** with **indent of 4** (**use json module for print formating**)
+* Print out percentual occurences (rounded to 2 decimals) of these letters in **json format** with **indent of 4** (**use json module for print formating**)
 
 #### Example:
 <pre>
